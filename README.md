@@ -18,27 +18,11 @@
 
 ---
 
-### 🏆 Conquistas no GitHub:
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=MatheusRibeir098&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
-
----
-
 ### 📬 Vamos nos conectar!
 
 <div> 
   <a href="mailto:matheusdpr098@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/SEU-USUARIO-LINKEDIN" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-</div>
-
----
-
-### 📈 Minhas estatísticas no GitHub:
-
-<div align="center">
-  <a href="https://github.com/MatheusRibeir098">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MatheusRibeir098&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatheusRibeir098&layout=compact&langs_count=7&theme=radical"/>
 </div>
 
 ---
