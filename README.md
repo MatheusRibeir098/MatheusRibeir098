@@ -2,7 +2,7 @@
 
 🎯 **Desenvolvedor em formação** | Apaixonado por tecnologia e inovação  
 🚀 Buscando oportunidades para crescer como **Desenvolvedor de Software**  
-📚 Cursando **Técnico em Desenvolvimento de Sistemas** no SENAI
+📚 Cursando **Técnico em Desenvolvimento de Sistemas** no SENAI, Ultimo semestre
 
 ---
 
