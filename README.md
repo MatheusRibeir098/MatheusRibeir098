@@ -3,6 +3,7 @@
 🎯 **Desenvolvedor em formação** | Apaixonado por tecnologia e inovação  
 🚀 Buscando oportunidades para crescer como **Desenvolvedor de Software**  
 📚 Formado **Técnico em Desenvolvimento de Sistemas** no SENAI!
+<br/>
 🎲 Cursando **Bacharelato Ciência de Dados** na FURB!
 
 ---
