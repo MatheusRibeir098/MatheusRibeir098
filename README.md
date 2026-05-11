@@ -15,11 +15,11 @@
 
 ```python
 matheus = {
-    "cargo":      "Estagiário de Desenvolvimento @ Dati",
-    "formação":   "Ciência de Dados — FURB (1º semestre)",
-    "foco":       ["TypeScript", "Python", "IA Generativa"],
+    "cargo":       "Estagiário de Desenvolvimento @ Dati",
+    "formação":    "Ciência de Dados — FURB (1º semestre)",
+    "foco":        ["TypeScript", "Python", "IA Generativa"],
     "diferencial": "Prompt Engineering com kiro-cli",
-    "status":     "Construindo coisas com IA todos os dias ☕",
+    "status":      "Construindo coisas com IA todos os dias ☕",
 }
 ```
 
@@ -61,18 +61,11 @@ Criei o **[Forge](https://github.com/MatheusRibeir098/forge-framework)** — um 
 
 ## 📊 GitHub Stats
 
-<div align="center">
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MatheusRibeir098&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=MatheusRibeir098&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MatheusRibeir098&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MatheusRibeir098&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
 
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=MatheusRibeir098&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-
-</div>
+![GitHub Streak](https://streak-stats.demolab.com?user=MatheusRibeir098&theme=tokyonight&hide_border=true)
 
 ---
 
