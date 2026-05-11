@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Oi%2C+eu+sou+o+Matheus+%F0%9F%91%8B;Desenvolvedor+%2B+Dados+%2B+IA;Estagiário+na+Dati;Sempre+com+café+%E2%98%95" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&height=60&lines=Oi%2C+eu+sou+o+Matheus+%F0%9F%91%8B;Estagiário+de+Dados+%40+Dati+AI+%26+Cloud;Desenvolvedor+%2B+Dados+%2B+IA;Sempre+com+café+%E2%98%95" alt="Typing SVG" />
 
 <br/>
 
@@ -15,7 +15,7 @@
 
 ```python
 matheus = {
-    "cargo":       "Estagiário de Desenvolvimento @ Dati",
+    "cargo":       "Estagiário de Dados @ Dati - AI & Cloud",
     "formação":    "Ciência de Dados — FURB (1º semestre)",
     "foco":        ["TypeScript", "Python", "IA Generativa"],
     "diferencial": "Prompt Engineering com kiro-cli",
@@ -61,11 +61,15 @@ Criei o **[Forge](https://github.com/MatheusRibeir098/forge-framework)** — um 
 
 ## 📊 GitHub Stats
 
+<div align="center">
+
 ![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MatheusRibeir098&theme=tokyonight)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=MatheusRibeir098&theme=tokyonight&hide_border=true)
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MatheusRibeir098&theme=tokyo-night&hide_border=true)
+
+</div>
 
 ---
 
