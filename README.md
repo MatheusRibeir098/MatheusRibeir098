@@ -61,11 +61,11 @@ Criei o **[Forge](https://github.com/MatheusRibeir098/forge-framework)** — um 
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MatheusRibeir098&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MatheusRibeir098&layout=compact&theme=tokyonight&hide_border=true&langs_count=6)
+![Profile Summary](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MatheusRibeir098&theme=tokyonight)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=MatheusRibeir098&theme=tokyonight&hide_border=true)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MatheusRibeir098&theme=tokyo-night&hide_border=true)
 
 ---
 
