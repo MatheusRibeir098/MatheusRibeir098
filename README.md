@@ -16,7 +16,8 @@
 ```python
 matheus = {
     "cargo":       "Estagiário de Dados @ Dati - AI & Cloud",
-    "formação":    "Ciência de Dados — FURB (1º semestre)",
+    "formação":    ["Téc. Desenvolvimento de Sistemas — SENAI",
+                    "Ciência de Dados — FURB (1º semestre)"],
     "foco":        ["TypeScript", "Python", "IA Generativa"],
     "diferencial": "Prompt Engineering com kiro-cli",
     "status":      "Construindo coisas com IA todos os dias ☕",
