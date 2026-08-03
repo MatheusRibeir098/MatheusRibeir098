@@ -7,6 +7,10 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/matheus-de-paula-ribeiro)
 [![Forge](https://img.shields.io/badge/Forge_Framework-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MatheusRibeir098/forge-framework)
 
+<br/>
+
+![AWS Certified Cloud Practitioner](https://img.shields.io/badge/AWS_Certified-Cloud_Practitioner-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=232F3E)
+
 </div>
 
 ---
@@ -15,12 +19,13 @@
 
 ```python
 matheus = {
-    "cargo":       "Estagiário de Dados @ Dati - AI & Cloud",
-    "formação":    ["Téc. Desenvolvimento de Sistemas — SENAI ✓",
-                    "Ciência de Dados — FURB (em curso)"],
-    "foco":        ["TypeScript", "Python", "IA Generativa"],
-    "diferencial": "Orquestração de agentes AI",
-    "status":      "Construindo coisas com IA todos os dias ☕",
+    "cargo":        "Estagiário de Dados @ Dati - AI & Cloud",
+    "formação":     ["Téc. Desenvolvimento de Sistemas — SENAI ✓",
+                     "Ciência de Dados — FURB (2º semestre)"],
+    "certificação": "AWS Certified Cloud Practitioner ☁️",
+    "foco":         ["TypeScript", "Python", "IA Generativa"],
+    "diferencial":  "Orquestração de agentes AI",
+    "status":       "Construindo coisas com IA todos os dias ☕",
 }
 ```
 
