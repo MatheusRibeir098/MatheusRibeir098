@@ -33,8 +33,8 @@ matheus = {
 
 ## 🤖 IA Generativa & Agentes
 
-Trabalho com **IA Generativa aplicada ao desenvolvimento de software** — uso `kiro-cli` para
-orquestrar agentes que constroem e mantêm projetos completos de forma autônoma.
+Trabalho com **IA Generativa aplicada ao desenvolvimento de software** — orquestro agentes de IA
+que constroem e mantêm projetos completos de forma autônoma.
 
 > 🔥 **[Forge](https://github.com/MatheusRibeir098/forge-framework)** — framework open source de
 > orquestração de agentes AI, escrito em Shell. É onde essa ideia vira ferramenta.
@@ -79,7 +79,7 @@ orquestrar agentes que constroem e mantêm projetos completos de forma autônoma
 
 | Projeto | O que é | Stack | |
 |---|---|---|---|
-| **[🔥 forge-framework](https://github.com/MatheusRibeir098/forge-framework)** | Framework de orquestração de agentes AI para criar e manter projetos | `Shell` `kiro-cli` | |
+| **[🔥 forge-framework](https://github.com/MatheusRibeir098/forge-framework)** | Framework de orquestração de agentes AI para criar e manter projetos | `Shell` `Agentes de IA` | |
 | **[📚 gerador-estudos](https://github.com/MatheusRibeir098/gerador-estudos)** | Gera material de estudo personalizado com IA | `TypeScript` `React` `Express` | |
 | **[📐 calculadora-grafica-3d](https://github.com/MatheusRibeir098/calculadora-grafica-3d)** | Visualização interativa de funções em 3D | `TypeScript` `React` | |
 | **[📊 trig-calculator](https://github.com/MatheusRibeir098/trig-calculator)** | Calculadora de trigonometria com gráficos | `TypeScript` `Python` | [🌐 demo](https://trig-calculator-ashy.vercel.app) |
