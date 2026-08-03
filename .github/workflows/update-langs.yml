@@ -1,0 +1,36 @@
+name: Atualiza gráfico de linguagens
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # toda segunda, 06:00 UTC
+  workflow_dispatch: # permite rodar na mão pela aba Actions
+
+permissions:
+  contents: write # necessário: o default do repo é read-only
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Gera os SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/gen_langs.py
+
+      - name: Commita se algo mudou
+        run: |
+          if [[ -z "$(git status --porcelain langs-dark.svg langs-light.svg)" ]]; then
+            echo "Nenhuma mudança nas linguagens — nada a fazer."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add langs-dark.svg langs-light.svg
+          git commit -m "chore: atualiza gráfico de linguagens"
+          git push
