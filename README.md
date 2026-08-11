@@ -34,7 +34,7 @@ matheus = {
 
 ## 🔥 Forge — Orquestração de Agentes AI
 
-Meu principal projeto open-source: **sistemas de orquestração multiagente** que automatizam a criação e manutenção de software. Você descreve o que precisa; o orquestrador planeja, delega para subagentes especializados (dev, tester, reviewer), executa em paralelo e entrega validado.
+Meu principal projeto open-source: **sistemas de orquestração multiagente** que automatizam a criação e manutenção de software. Você descreve o que precisa; o orquestrador planeja, delega para subagentes especializados, executa em paralelo e entrega validado.
 
 <table>
 <tr>
@@ -44,13 +44,12 @@ Meu principal projeto open-source: **sistemas de orquestração multiagente** qu
 
 **Orquestração nativa para [Kiro CLI](https://kiro.dev)**
 
-- Subagentes nativos do Kiro (sem tmux)
-- DAG com paralelismo e review loops
-- 13 agentes especializados
-- Model routing (Qwen 0.05x → Opus 2.0x)
+- Subagentes nativos do Kiro com DAG e review loops
+- 13 agentes especializados (scout, spec, dev, test, review, ui, issue...)
+- Model routing por tarefa (Qwen 0.05x → Opus 2.0x)
 - Progressive disclosure de skills
 - Economia de 50-70% de tokens por sessão
-- Guia de pesquisa sobre economia de tokens
+- Zero tmux, zero MCP desnecessário
 
 `Kiro CLI` `Custom Agents` `DAG` `Subagents`
 
@@ -59,15 +58,16 @@ Meu principal projeto open-source: **sistemas de orquestração multiagente** qu
 
 ### [🔥 Forge Claude](https://github.com/MatheusRibeir098/forge-claude)
 
-**Orquestração via tmux para Claude Code**
+**Orquestração nativa para [Claude Code](https://claude.com/claude-code)**
 
-- Dev + Tester em paralelo via tmux
-- Monitor que coordena e valida
-- Setup automatizado com `setup-forge.sh`
-- Screenshots de validação visual
-- Ciclos de correção automáticos
+- Um único interlocutor; subagentes `dev` + `tester` delegados
+- Paralelismo por padrão (lotes com arquivos disjuntos)
+- Hook impede orquestrador de escrever código
+- Tester valida com Playwright + screenshots reais
+- Estado em disco (`.forge/tasks.md`, `progress.md`)
+- Sem tmux — fim de etapa é retorno do subagente
 
-`Claude Code` `tmux` `Shell` `Multiagente`
+`Claude Code` `Subagents` `Playwright` `E2E`
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ Trabalho com **IA Generativa aplicada ao desenvolvimento de software** — proje
 | Projeto | O que é | Stack |
 |---|---|---|
 | **[🔥 forge-kiro](https://github.com/MatheusRibeir098/forge-kiro)** | Orquestração multiagente nativa para Kiro CLI | `Kiro CLI` `Subagents` `DAG` |
-| **[🔥 forge-claude](https://github.com/MatheusRibeir098/forge-claude)** | Orquestração multiagente via tmux para Claude Code | `Claude Code` `tmux` `Shell` |
+| **[🔥 forge-claude](https://github.com/MatheusRibeir098/forge-claude)** | Orquestração multiagente nativa para Claude Code | `Claude Code` `Subagents` `Playwright` |
 | **[📚 gerador-estudos](https://github.com/MatheusRibeir098/gerador-estudos)** | Gera material de estudo personalizado com IA | `TypeScript` `React` `Express` |
 | **[📐 calculadora-grafica-3d](https://github.com/MatheusRibeir098/calculadora-grafica-3d)** | Visualização interativa de funções em 3D | `TypeScript` `React` |
 | **[📊 trig-calculator](https://github.com/MatheusRibeir098/trig-calculator)** | Calculadora de trigonometria com gráficos | `TypeScript` `Python` |
